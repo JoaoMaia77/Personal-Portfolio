@@ -1,0 +1,27 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(13, 2fr);
+  gap: 10px;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.estrela{
+grid-column: 1;
+
+}
+.texto{
+grid-column: 2/4;
+
+
+}
+img{
+  max-height: 15%;
+  grid-column: 8/12;
+}
